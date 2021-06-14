@@ -5,8 +5,3 @@ button.addEventListener('click', async (event) => {
     score.innerHTML = numberOfClicks;
     numberOfClicks++;
 })
-
-if(Number(score.innerHTML) == 20) {
-    score.innerHTML = numberOfClicks;
-    numberOfClicks += 2;
-}
